@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+h1{
+    display: flex;
+    text-shadow: 9px 0px black;
+    color: #ded8d8;
+}
+
+header, main{
+   text-align: center;
+   width: 350px;
+   margin: auto;
+   
+}
+
+
+.tweet-area{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 50px;
+}
+
+textarea{
+    resize: none;
+    border: none;
+}
+
+.tweet-btn{
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.tweet{
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+    width: 100%;
+    position: relative;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.handle{
+    font-size: 12px;
+    color: #555;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: start;
+}
+
+.tweet-details{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.tweet-text{
+    font-size: 14px;
+    display: flex;
+    margin-left: 5px;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.retweet{
+    color: limegreen;
+}
+
+.hidden{
+    display: none;
+}
+
+.tweet-reply{
+    border-top: 1px solid #ded8d8;
+    margin: 10px;
+    padding: 15px 30px;
+    width: 80%;
+}
+
+.reply-textarea{
+    display: flex;
+    margin-top: 5px;
+}
